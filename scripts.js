@@ -1,6 +1,6 @@
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
-localStorage.setItem("API_KEY", "aa833fac41885573bf9d5442403a9dd0");
+localStorage.setItem("API_KEY", "");
 
 document.addEventListener("DOMContentLoaded", function () {
   let showWeather = document.getElementById("appContent_info");
